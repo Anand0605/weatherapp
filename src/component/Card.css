@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* background-color: black; */
+    height: 100vh;
+    /* max-width: 800px; */
+    width: 100vw;
+}
+
+.card2 {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+
+
+}
+
+.search input {
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+
+/* input padding .search ::placeholder {
+    padding: 10px;
+} */
